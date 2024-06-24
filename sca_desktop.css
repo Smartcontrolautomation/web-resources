@@ -1,0 +1,241 @@
+/******************************************************
+ *---------------- Gloval Variables -------------------
+ * ****************************************************/
+
+:root{
+	--p: calc(8px + 0.3vw + 0.2vh);
+}
+
+/*******************************************************************************
+ * ===========================================================================
+ *	-------------------------- DESKTOP LAYOUT --------------------------------
+ * ===========================================================================
+ * *****************************************************************************/
+
+/******************************************************
+ *--------------------- General -----------------------
+ * ****************************************************/
+
+p{
+	font-size: calc(1.4 * var(--p)) !important;
+}
+
+h1{
+	font-size: calc(3 * var(--p)) !important;
+}
+
+h2{
+	font-size:calc(2.5 * var(--p)) !important;
+}
+
+h3{
+	font-size: calc(2.2 * var(--p)) !important;
+}
+	
+h5{
+	font-size: calc(1.5 * var(--p)) !important;
+}
+
+/*--------------------------
+ * ------- HEADER ----------
+ * ------------------------*/
+
+.wp-block-kubio-dropdown-menu li {
+	margin: 0 calc(8px + 0.1vw) !important;
+	& a{
+		font-size: calc(1.2 * var(--p)) !important;
+	}
+}
+
+* {
+	word-wrap: normal;
+}
+
+.style-t7evpzo3--J-inner{
+	padding-right: 0 !important;
+}
+
+/*Navigation*/
+
+.wp-block-kubio-navigation-section__nav-section{
+	display: flex;
+	justify-content: space-between !!important;
+}
+
+.wp-block-kubio-navigation-section__nav-section div{
+	width: 100%;
+}
+
+.wp-block-kubio-navigation-section__nav-section .justify-content-center{
+	justify-content: space-between;
+}
+
+/*logo container*/
+
+.sca-logo-container{ 
+	margin-top: 10px;
+}
+
+
+/*--------------------------
+ * ------- FOOTER ----------
+ * ------------------------*/
+
+.style-cppjpmKF9-inner{
+	& .wp-block-kubio-column__align{
+		padding: 0
+	}
+	
+	& .wp-block-kubio-column__inner{
+		padding: calc(50px + 0.5vw) 0;
+	}
+	
+}
+
+.style-ljl-MKRjPT-inner{
+	margin-right: 50px !important;
+}
+
+.style-cppjpmKF9-container{
+	padding: calc(20px + 0.2vw) 80px;
+}
+
+.style-oNnHA1d0kdQ-outer ul{
+	gap: unset !important;
+}
+
+/******************************************************
+ *-------------------- HOME TAB -----------------------
+ * ****************************************************/
+
+/*--------------------------
+ * -------- Banner ---------
+ * ------------------------*/
+
+.style-bgnhUSaQMl-container {
+	margin-top: calc(70px + 0.2vw + 0.2vh) !important;
+	margin-bottom: calc(70px + 0.2vw + 0.2vh) !important;
+	
+}
+
+/*--------------------------
+ * ------- Nosotros --------
+ * ------------------------*/
+
+.style-D41H0YOeju-inner{
+	& h2{
+		margin-bottom: calc(16px + 0.2vw + 0.1vh) !important
+	}	
+}
+
+.style-gZp4ybkeH1-outer, .style-QuO6S_EJ4WK-inner, .style-ardmWhLhqNg-inner{
+		padding-bottom: 0 !important;
+	margin-bottom: calc(40px + 0.5vw) !important; 
+}
+
+/*---------------------------
+ * ------- Servicios --------
+ * ------------------------*/
+
+.style-y06kG_Z2hde-align, .style-LuOD4KxdGWc-align{
+		& h2{
+			font-size:calc(3.5 * var(--p)) !important;
+		}
+}
+
+.style-QuO6S_EJ4WK-inner{
+	& img{
+		min-width: 50px !important;
+		width: calc(50px + 2vw) !important;
+	}
+	
+	& h5 {
+		min-height: 60px;
+		height: calc(50px + 0.2vw)
+		max-height: 80px;
+	}
+}
+
+/*--------------------------
+ * ------ Soluciones -------
+ * ------------------------*/
+
+.style-ardmWhLhqNg-inner{
+	& img{
+		min-width: 50px !important;
+		width: calc(50px + 2vw) !important;
+	}
+	
+	& h5 {
+		min-height: 60px;
+		height: calc(50px + 0.2vw)
+		min-height: 110px;
+		height: calc(110px + 0.2vw + 0.1vh)
+	}
+	
+	& .wp-block-kubio-button{
+		box-sizing: unset !important;
+		padding: 0;
+		width: 70%;
+		margin-top: 20px;
+		& a{
+			font-size: 80% !important;
+		}
+	}
+	
+
+	& .justify-content-lg-center{
+		justify-content: space-around !!important;
+style-0q1v6PAHKT-align	}
+
+}
+
+
+/******************************************************
+ *------------------ ABOUT US TAB ---------------------
+ * ****************************************************/
+
+/*--------------------------
+ * ---- Body Container -----
+ * ------------------------*/
+
+.style-p7Z7tbZgOg-outer{
+	padding-bottom: 0 !important;
+}
+
+/******************************************************
+ *------------------ SERVICES TAB ---------------------
+ * ****************************************************/
+
+.style-DbkmkmgSJj-container{
+	margin-top: calc(80px + 0.5vw) !important;
+}
+
+/******************************************************
+ *------------------ SOLUTIONS TAB --------------------
+ * ****************************************************/
+
+
+.style-kxeqsSpdy-n-inner{
+	margin-top: calc(80px + 0.5vw) !important;
+}
+
+.style-kxeqsSpdy-n-align {
+	& img{
+		max-height: calc(300px + 0.5vw);
+		margin-top: calc(10px + 0.5vw);
+	}
+}
+
+.style-JP5g9bHS8j-inner{
+	margin-top: calc(40px + 0.5vw) !important;
+	
+}
+
+.style-CtKC_EuIZL-container{
+	& .wp-block-kubio-column__align{
+		margin-left: calc(10px + 0.5vw)
+	}
+}
+
+
