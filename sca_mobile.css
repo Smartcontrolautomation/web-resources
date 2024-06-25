@@ -1,0 +1,124 @@
+/*******************************************************************************
+ * ===========================================================================
+ * ------------------------------ MOBILE LAYOUT ------------------------------
+ * ===========================================================================
+ * *****************************************************************************/
+
+@media(max-width:700px){
+	
+/******************************************************
+ *--------------------- General -----------------------
+ * ****************************************************/
+
+h2{
+	font-size:calc(3 * var(--p)) !important;
+}
+
+h5{
+	font-size: calc(1.3 * var(--p)) !important;
+}
+
+h3{
+	text-align: center !important;
+}
+	
+/*--------------------------
+ * ------- HEADER ----------
+ * ------------------------*/
+	
+.style-xLwdIMLPC_l-nav{
+	border-bottom: 2px solid #80808080
+}
+.style-ovGY-KybgF-inner{
+	margin-right: calc(12px + 0.2vw)
+}
+
+.style-ys3EX-ASA-image{
+	margin-left: 0 !important;
+}
+
+.style-ljl-MKRjPT-inner{
+	margin: 0 !important;
+}
+
+style-JkMvjryyOu--icon{
+	height: calc(26px + 0.5vw) !important;
+	width: calc(26px + 0.5vw) !important;
+}
+
+.style-QbooC6hEXE-nav{
+	padding-right: 10px !important;
+	padding-left: 8px !important;
+}
+
+/******************************************************
+ *-------------------- HOME TAB -----------------------
+ * ****************************************************/
+	
+/*--------------------------
+ * ------- Nosotros --------
+ * ------------------------*/
+
+.style-D41H0YOeju-inner {
+  & h2 {
+    margin-bottom: calc(24px + 1vw) !important;
+  }
+}
+
+/*---------------------------
+ * ------- Servicios --------
+ * ------------------------*/
+	
+.style-y06kG_Z2hde-align, .style-LuOD4KxdGWc-align{
+		& h2{
+			font-size:calc(3 * var(--p)) !important;
+			margin-bottom: calc(24px + 1vw) !important;
+		}
+}
+
+
+.style-QuO6S_EJ4WK-inner {
+  & h5 {
+		min-height: unset;
+    height: calc(30px + 0.2vw + 0.1vh);
+  }
+}
+	
+.wp-block-kubio-button{
+		margin: calc(5px + 1vw) 0  calc(20px + 1vw) 0 !important;
+		& a{
+			letter-spacing: 0 !important
+		}
+}
+	
+.h-x-container-inner > *{
+		padding: 0 !important;
+}
+.style-vCL9ngu8t6b-spacing{
+	margin-top: 12px
+}
+
+.style-iMvKbN4Hr5n-outer{
+	padding: 0 !important;
+}
+
+/******************************************************
+ *------------------ ABOUT US TAB ---------------------
+ * ****************************************************/
+
+/*Vision IMG*/
+.style-yhiOp8EQe-frameContainer{
+	max-width: 80%;
+}
+
+/******************************************************
+ *------------------ SOLUTIONS TAB ---------------------
+ * ****************************************************/
+  
+.style-kxeqsSpdy-n-container .wp-block-kubio-column__align{
+	max-width: 94%;
+	margin: auto !important;
+}
+	
+/**************************** END MOBILE *******************************/
+}
