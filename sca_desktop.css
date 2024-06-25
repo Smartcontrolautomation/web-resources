@@ -238,7 +238,11 @@ style-0q1v6PAHKT-align	}
 	}
 }
 
-.style-HuThQIUf0D-outer h2, style-dXTmVk3Lza-text{
+/******************************************************
+ *------------------- CONTACT TAB ---------------------
+ * ****************************************************/
+
+.style-HuThQIUf0D-outer h3, style-dXTmVk3Lza-text{
 	margin-bottom: calc(40px + 0.5vw) !important;
 }
 
